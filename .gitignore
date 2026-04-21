@@ -1,0 +1,11 @@
+.DS_Store
+**/.DS_Store
+
+.remember/
+output/
+
+.vscode/
+.idea/
+
+*.log
+*.swp
