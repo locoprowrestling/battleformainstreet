@@ -311,6 +311,32 @@ a {
   box-shadow: 0 14px 24px rgba(13, 29, 67, 0.16);
 }
 
+.button-phone-disabled {
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      #d6d9e4 0,
+      #d6d9e4 16px,
+      #eef0f6 16px,
+      #eef0f6 32px
+    );
+  color: #67708f;
+  cursor: not-allowed;
+  opacity: 0.95;
+}
+
+.button-phone-disabled:hover,
+.button-phone-disabled:focus-visible {
+  transform: none;
+  box-shadow: 0 14px 24px rgba(13, 29, 67, 0.16);
+}
+
+.phone-disabled {
+  color: #67708f;
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
 .hero-art {
   position: relative;
   min-height: 30rem;
